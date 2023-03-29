@@ -1,0 +1,71 @@
+/* 공용 소스 */
+
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+/* 상속1 */
+.sc-news .group-media .btn-next::before,
+.sc-news .group-media .btn-prev::before,
+.gnb .group-weather .air-area .link-air .air-item .state.state-normal::before,
+.gnb .group-nav .btn-more::after,
+.gnb .group-nav .nav-item .ic-tv::before,
+.gnb .group-nav .nav-item .ic-shoplive::before,
+.gnb .group-nav .nav-item .ic-shop::before,
+.footer .footer-inner .notice-area .link-all::after,
+.container .btn-theme::after,
+.container .content-top::after,
+.sc-themepost .theme-head .group-category .main-category .pm-btn-next.NM-THEME-NEXT .ico-btn::before,
+.sc-themepost .theme-head .group-category .main-category .pm-btn-prev.NM-THEME-PREV .ico-btn::before,
+.sc-themepost .theme-content .btn-more-wrap .btn-more .ico-more::before,
+.sc-themepost .theme-content .group-theme .media-view-wrap.type-column .media-area .media-thumb .pm-ico-play::before,
+.sc-themepost .theme-content .group-topstory .topstory-thumb .pm-ico-play::before,
+.sc-themepost .theme-head .info-area .btn-set::before,
+.sc-news .group-title .set-area .btn-set.ic-set::after,
+.sc-news .group-title .set-area .btn-set.ic-tile::after,
+.sc-news .group-title .set-area .btn-set.ic-list::after,
+.sc-news .group-title .sort-area .btn-sort::before,
+.sc-news .group-title .link-title::after,
+.sc-news .group-title .link-title::before,
+.sc-news .group-issue .link-media::after,
+.sc-sidenews .nav-wrap .btn-nav.next::before,
+.sc-sidenews .nav-wrap .btn-nav.prev::before,
+.sc-login .sub-area .link-join::before,
+.sc-login .sub-area .link-id::before,
+.sc-login .link-login::before,
+.gnb .group-nav .nav-item .ic-mail::before,
+.header .service-area a::after,
+.header .search-area .btn-submit::before,
+.header .logo-area h1 a::before{
+    background-image: url(../images/sp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 442px;
+}
+
+
+/* 상속2 */
+
+.sc-shop .shop-content .group-plusdeal .list-deal .deal-item .deal-area .deal-thumb .thumb-box+.thumb-box::before,
+.sc-shop .shop-content .group-plusdeal .list-deal .deal-item .deal-area .deal-thumb .thumb-box .ico-one-plus::before,
+.sc-shop .shop-content .group-plusdeal .shop-title .shop-control .btn-box .btn.btn-next::after,
+.sc-shop .shop-content .group-plusdeal .shop-title .shop-control .btn-box .btn.btn-prev::before,
+.sc-shop .shop-content .group-plusdeal .shop-title .title .link-logo::before,
+.sc-shop .shop-content .group-plus .shop-control .btn-box .btn.btn-next::after,
+.sc-shop .shop-content .group-plus .shop-control .btn-box .btn.btn-prev::before,
+.sc-shop .shop-content .group-event .shop-title .shop-control .btn-box .btn.btn-next::after,
+.sc-shop .shop-content .group-event .shop-title .shop-control .btn-box .btn.btn-prev::before,
+.sc-shop .shop-content .group-goods .shop-page .btn.btn-next::after,
+.sc-shop .shop-content .group-goods .shop-page .btn.btn-prev::before,
+.sc-shop .shop-content .group-goods .shop-control .btn-box .btn.btn-next::after,
+.sc-shop .shop-content .group-goods .shop-control .btn-box .btn.btn-prev::before,
+.sc-shop .shop-header .link-shop .ls-link::after,
+.sc-shop .shop-header .link-shop .ls-link::before {
+    background-image: url(../images/sp-bg2.png);
+    background-repeat: no-repeat;
+    background-size: 129px 101px;
+}
